@@ -1,0 +1,67 @@
+/**********************
+	Testimonials
+**********************/
+.testimonials {
+	padding-bottom: 15px;
+	color: white;
+	background: $brand-primary-dark;
+	h2::before {
+		border-color: white;
+	}
+	@include media-breakpoint-up(md) {
+		border-top-width: 20px;
+		padding-bottom: 20px;
+	}
+	/**********************
+		Nuka Carousel
+	**********************/
+	.slider {
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+	}
+	ul.bullets {
+		position: relative;
+		margin: 0;
+		padding: 0;
+	}
+	.bullet {
+		list-style-type: none;
+		display: inline-block;
+	}
+	.button {
+		border: 0;
+		background: transparent;
+		color: white;
+		cursor: pointer;
+		padding: 10;
+		outline: 0;
+		font-size: 16px;
+		opacity: .5;
+		.icon-circle { display: none; }
+		.icon-circle-o { display: inline-block; }
+		
+		&.active {
+			opacity: 1;
+			.icon-circle { display: inline-block; }
+			.icon-circle-o { display: none; }
+		}
+	}
+
+	.slider-slide > div {
+		max-width: 80%;
+		margin: 0 auto 30px;
+		color: white;
+		@include media-breakpoint-up(md) {
+			max-width: 60%;
+		}
+		@include media-breakpoint-up(lg) {
+			max-width: 760px;
+		}
+		p {
+			margin-bottom: 5px;
+		}
+		.endorser {
+			color: #ddd;
+		}
+	}
+}

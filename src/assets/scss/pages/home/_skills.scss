@@ -1,0 +1,71 @@
+/**********************
+	Skills - Technologies
+**********************/
+.skills {
+	justify-content: center;
+	max-width: 400px;
+	margin: 0 auto;
+	@include media-breakpoint-up(md) {
+		max-width: 800px;
+	}
+	h3 {
+		margin-bottom: 0;
+		font-size: 18px;
+	}
+	.skill {
+		margin-top: ($grid-gutter-width / 2); 
+		&-canvas-wrapper {
+			position: relative;
+			width: 110px;
+			height: 110px;
+			margin: 10px auto 0;
+		}
+		&-label {
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+		}
+		&-year {
+			font-size: 26px;
+			line-height: 26px;
+		}
+		&-year-label {
+			font-size: 16px;
+			line-height: 16px;
+		}
+	}
+}
+
+/**********************
+	Technologies
+**********************/
+.technologies {
+	padding-top: 0;
+	h4 {
+		font-size: 20px;
+	}
+	ul {
+		padding: 0;
+		margin: 0 0 25px;
+		list-style: none;
+		@include media-breakpoint-up(md) {
+			margin-bottom: 41px;
+		}
+	}
+	li {
+		font-size: 13px;
+	}
+	.progress {
+		height: 10px;
+		margin-bottom: 6px;
+	}
+	progress::-ms-fill { // Fix IE11 & Edge: Extra Border
+    	border: none;
+	}
+}

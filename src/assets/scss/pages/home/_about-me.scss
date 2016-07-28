@@ -1,0 +1,10 @@
+/**********************
+	About me
+**********************/
+.about-me {
+	color: $gray;
+	background: $brand-primary-light;
+	h2::before {
+		border-color: $gray;
+	}
+}

@@ -1,0 +1,53 @@
+.navbar {
+	.container-fluid {
+		@include media-breakpoint-up(xl) {
+			max-width: 1140px;
+		}
+	}
+	.nav-container {
+		width: 100%;
+		height: 0;
+		transition: height 0.3s ease;
+		overflow: hidden;
+		@include media-breakpoint-up(md) {
+			width: auto;
+			margin-left: auto;
+			height: auto;
+		}
+		&.active {
+			height: 195px;
+			@include media-breakpoint-up(md) {
+				height: auto;	
+			}
+		}
+	}
+	&-toggler {
+		position: absolute;
+		top: 8px;
+		right: 8px;
+
+		display: inline-block;
+		vertical-align: middle;
+		border: 1px solid $brand-primary;
+		border-radius: .25rem;
+		background: none;
+		&, &:active {
+			color: $brand-primary;
+		}
+		&:focus {
+			outline: none;
+		}
+	}
+
+	&-nav .nav-item {
+		@include media-breakpoint-down(sm) {
+			float: none;
+			+ .nav-item {
+				margin-left: 0;
+			}
+		}
+	}
+}
+.navbar-light .navbar-nav .nav-link:active {
+	color: $navbar-light-color;
+}

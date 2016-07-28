@@ -1,0 +1,105 @@
+/**********************
+	Work Grid
+**********************/
+.work-grid {
+	.card {
+		overflow: hidden;
+
+		height: 220px;
+		margin-bottom: 0;
+
+		border: 0;
+		border-radius: 0;
+		.desktop & {
+			&:hover {
+				.card-img {
+					transform: scale(1.15);
+				}
+				.card-img-overlay {
+					background: rgba(#0e1832, 0.85); 
+				}
+				.card-img-overlay-content {
+					opacity: 1;
+					> * {
+						transform: translate(0, 0);
+					}
+				}
+			}
+		}
+		* {
+			transition: all 350ms ease;
+		}
+		@include media-breakpoint-up(md) {
+			height: 300px;
+		}
+		&-img {
+			position: absolute;
+			top: 0;
+			left: 0;
+
+			width: 100%;
+			height: 100%;
+
+			transform: scale(1);
+
+			background: no-repeat center center;
+			background-size: cover;
+
+			border-radius: 0;
+		}
+		&-img-overlay {
+			padding: 20px;
+			.mobile &, .tablet & {
+				background: rgba(#0e1832, 0.45);
+			}
+			.desktop & {
+				background: transparent;
+			}
+			@include media-breakpoint-up(md) {
+				padding: 50px;
+			}
+			&-content {
+				height: 100%;
+				position: relative;
+				.mobile &, .tablet & {
+					opacity: 1;
+				}
+				.desktop & {
+					opacity: 0;
+					> * {
+						transform: translate(0, 16px);
+					}
+				}
+				@include media-breakpoint-up(md) {
+					max-width: 600px;
+				}
+			}
+		}
+		&-title {
+			font-size: 25px;
+			margin-bottom: 8px;
+			@include media-breakpoint-up(md) {
+				font-size: 50px;
+				line-height: 60px;
+				margin-bottom: 12px;
+			}
+		}
+		&-text {
+			font-size: 12px;
+			@include media-breakpoint-up(md) {
+				font-size: 16px;
+			}
+		}
+		&-tags {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+
+			margin: 0;
+			padding: 0;
+			li {
+				margin-right: 5px;
+			}
+		}
+	}
+}

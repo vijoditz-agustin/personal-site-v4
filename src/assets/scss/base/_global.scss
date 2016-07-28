@@ -1,0 +1,75 @@
+html,
+body {
+	height: 100%;
+}
+
+h1 {
+	font-size: 30px;
+	@include media-breakpoint-up(md) {
+		font-size: 40px;
+	}
+}
+h2 {
+	font-size: 32px;
+	position: relative;
+	margin-bottom: 40px;
+	@include media-breakpoint-up(md) {
+		font-size: 48px;
+		margin-bottom: 60px;
+	}
+	// Underline
+	&.narrow-underline {
+		margin-bottom: 20px;
+		&::before{
+			bottom: -10px;
+		}
+	}
+	&:before {
+		border: 1px solid black;
+		content: "";
+
+		display: block;
+		position: absolute;
+		bottom: -20px;
+		left: 50%;
+		transform: translate(-50%, 0);
+		width: 50px;
+		@include media-breakpoint-up(md) {
+			bottom: -30px
+		}
+	}
+}
+h3 {
+	font-size: 22px;
+	@include media-breakpoint-up(md) {
+		font-size: 26px;
+	}
+}
+
+.content-block {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	@include media-breakpoint-up(md) {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+}
+
+header p {
+	margin-bottom: 0;
+}
+
+.form-control:required {
+	box-shadow: none;
+}
+
+// order classes
+@each $breakpoint in map-keys($grid-breakpoints) {
+	@include media-breakpoint-up($breakpoint) {
+		@for $i from 1 through 10 {
+			.col-#{$breakpoint}-order-#{$i} { order: #{$i}; }
+		}
+	}
+}
+
+

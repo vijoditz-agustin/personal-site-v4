@@ -1,0 +1,413 @@
+{
+	"projects": [
+		{
+			"size": {
+				"lg": 8,
+				"sm": 12 
+			},
+			"order": {
+				"xs": 1
+			},
+			"title": "PapaGino's",
+			"img": "papaginos.jpg",
+			"text": "",
+			"tags": [
+				{
+					"type": "primary",
+					"label": "Angular"
+				},
+				{
+					"type": "success",
+					"label": "Fully Responsive"
+				},
+				{
+					"type": "success",
+					"label": "HTML5"
+				},
+				{
+					"type": "success",
+					"label": "CSS3 with SASS"
+				},
+				{
+					"type": "success",
+					"label": "Foundation 6"
+				},
+				{
+					"type": "danger",
+					"label": ".NET"
+				}
+			]
+		},
+		{
+			"size": {
+				"lg": 4,
+				"sm": 6 
+			},
+			"order": {
+				"lg": 2,
+				"xs": 5
+			},
+			"title": "Davis Partnership",
+			"img": "davis.jpg",
+			"text": "",
+			"tags": [
+				{
+					"type": "primary",
+					"label": "jQuery"
+				},
+				{
+					"type": "primary",
+					"label": "Backbone"
+				},
+				{
+					"type": "success",
+					"label": "Fully Responsive"
+				},
+				{
+					"type": "success",
+					"label": "HTML5"
+				},
+				{
+					"type": "success",
+					"label": "CSS3 with SASS"
+				},
+				{
+					"type": "success",
+					"label": "Sussy"
+				},
+				{
+					"type": "danger",
+					"label": "Wordpress"
+				}
+			]
+		},
+		{
+			"size": {
+				"lg": 8,
+				"sm": 12 
+			},
+			"order": {
+				"lg": 4,
+				"xs": 2
+			},
+			"title": "University of Michigan Athletics",
+			"img": "uma.jpg",
+			"text": "",
+			"tags": [
+				{
+					"type": "primary",
+					"label": "jQuery"
+				},
+				{
+					"type": "success",
+					"label": "Fully Responsive"
+				},
+				{
+					"type": "success",
+					"label": "HTML5"
+				},
+				{
+					"type": "success",
+					"label": "CSS3 with SASS"
+				},
+				{
+					"type": "success",
+					"label": "Foundation"
+				},
+				{
+					"type": "danger",
+					"label": "Wordpress"
+				}
+			]
+		},
+		{
+			"size": {
+				"lg": 8,
+				"sm": 6 
+			},
+			"order": {
+				"lg": 5,
+				"xs": 3
+			},
+			"title": "OhioHealth",
+			"img": "ohiohealth.jpg",
+			"text": "",
+			"tags": [
+				{
+					"type": "primary",
+					"label": "Angular"
+				},
+				{
+					"type": "success",
+					"label": "Fully Responsive"
+				},
+				{
+					"type": "success",
+					"label": "HTML5"
+				},
+				{
+					"type": "success",
+					"label": "CSS3 with SASS"
+				},
+				{
+					"type": "success",
+					"label": "Foundation"
+				},
+				{
+					"type": "danger",
+					"label": ".NET"
+				}
+			]
+		},
+		{
+			"size": {
+				"lg": 4,
+				"sm": 6 
+			},
+			"order": {
+				"lg": 3,
+				"xs": 4
+			},
+			"title": "UDR Apartments",
+			"img": "udr.jpg",
+			"text": "",
+			"tags": [
+				{
+					"type": "primary",
+					"label": "jQuery"
+				},
+				{
+					"type": "success",
+					"label": "Fully Responsive"
+				},
+				{
+					"type": "success",
+					"label": "HTML5"
+				},
+				{
+					"type": "success",
+					"label": "CSS3 with SASS"
+				},
+				{
+					"type": "success",
+					"label": "Foundation"
+				},
+				{
+					"type": "danger",
+					"label": ".NET"
+				}
+			]
+		},
+		{
+			"size": {
+				"lg": 4,
+				"sm": 6 
+			},
+			"order": {
+				"xs": 6
+			},
+			"title": "Swingle",
+			"img": "swingle.jpg",
+			"text": "",
+			"tags": [
+				{
+					"type": "primary",
+					"label": "jQuery"
+				},
+				{
+					"type": "primary",
+					"label": "Backbone"
+				},
+				{
+					"type": "success",
+					"label": "Fully Responsive"
+				},
+				{
+					"type": "success",
+					"label": "HTML5"
+				},
+				{
+					"type": "success",
+					"label": "CSS3 with SASS"
+				},
+				{
+					"type": "success",
+					"label": "Sussy"
+				},
+				{
+					"type": "danger",
+					"label": "Wordpress"
+				}
+			]
+		}
+	],
+	"technologies": [
+		{
+			"label": "Front-end Coding",
+			"lists": [
+				[
+					{
+						"label": "JavaScript (Vanilla or jQuery)",
+						"type": "",
+						"perc": 100
+					},
+					{
+						"label": "Angular 1",
+						"type": "",
+						"perc": 100
+					},
+					{
+						"label": "ES6 & ES2015",
+						"type": "",
+						"perc": 80
+					},
+					{
+						"label": "React",
+						"type": "",
+						"perc": 75
+					},
+					{
+						"label": "Angular 2",
+						"type": "",
+						"perc": 60
+					}
+				],
+				[
+					{
+						"label": "Handlebars",
+						"type": "",
+						"perc": 80
+					},
+					{
+						"label": "Lodash",
+						"type": "",
+						"perc": 60
+					},
+					{
+						"label": "Backbone",
+						"type": "",
+						"perc": 60
+					}
+				]
+			]
+		},
+		{
+			"label": "Fully Responsive Websites",
+			"lists": [
+				[
+					{
+						"label": "HTML5",
+						"type": "success",
+						"perc": 100
+					},
+					{
+						"label": "CSS3/CSS",
+						"type": "success",
+						"perc": 100
+					},
+					{
+						"label": "SASS(SCSS)",
+						"type": "success",
+						"perc": 100
+					},
+					{
+						"label": "Foundation 6",
+						"type": "success",
+						"perc": 100
+					},
+					{
+						"label": "Bootstrap 3 & 4",
+						"type": "success",
+						"perc": 100
+					},
+					{
+						"label": "Sussy",
+						"type": "success",
+						"perc": 75
+					},
+					{
+						"label": "LESS",
+						"type": "success",
+						"perc": 75
+					}
+				]
+			]
+		},
+		{
+			"label": "Back-end & DevTools",
+			"lists": [
+				[
+					{
+						"label": "Wordpress",
+						"type": "danger",
+						"perc": 100
+					},
+					{
+						"label": "LAMP Stack <small>[Linux, Apache, PHP and MySQL]</small>",
+						"type": "danger",
+						"perc": 100
+					},
+					{
+						"label": "MEAN Stack <small>[MongoDB, Express, Angularjs and Node.js</small>",
+						"type": "danger",
+						"perc": 80
+					},
+					{
+						"label": "Laravel, CakePHP, Kohana, Zend Framework",
+						"type": "danger",
+						"perc": 75
+					}
+				],
+				[
+					{
+						"label": "Gulp / Grunt / Webpack",
+						"type": "danger",
+						"perc": 100
+					},
+					{
+						"label": "Git, Mercurial, SVN (Subversion)",
+						"type": "danger",
+						"perc": 100
+					},
+					{
+						"label": "Agile methodologies and Continuous integration",
+						"type": "danger",
+						"perc": 100
+					}
+				]
+			]
+		}
+	],
+	"skills": [
+		{
+			"label": "Front-end Development",
+			"date": "2005-03-01"
+		},
+		{
+			"label": "Project<br />Management",
+			"date": "2008-03-01"
+		},
+		{
+			"label": "Leadership and Mentoring",
+			"date": "2008-09-01"
+		},
+		{
+			"label": "Back-end Development",
+			"date": "2005-01-02"
+		}
+	],
+	"testimonials": [
+		{
+			"quote": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo neque ullam ab quos, illum blanditiis id. Qui delectus harum, odio labore iusto unde error nemo molestiae, in atque ad accusamus.",
+			"endorser": "Lorem ipsum. Lalal llaaaqd qwdqdq w" 
+		},
+		{
+			"quote": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo neque ullam ab quos, illum blanditiis id. Qui delectus harum, odio labore iusto unde error nemo molestiae, in atque ad accusamus.",
+			"endorser": "Lorem ipsum. Lalal llaaaqd qwdqdq w" 
+		},
+		{
+			"quote": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo neque ullam ab quos, illum blanditiis id. Qui delectus harum, odio labore iusto unde error nemo molestiae, in atque ad accusamus.",
+			"endorser": "Lorem ipsum. Lalal llaaaqd qwdqdq w" 
+		}
+	]
+}

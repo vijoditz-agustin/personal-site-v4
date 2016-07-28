@@ -1,0 +1,63 @@
+/**********************
+	Hire Me
+**********************/
+.hire-me {
+	&-bg {
+		@include media-breakpoint-up(md) {
+			background: url('../img/contact.png') no-repeat center center;
+			background-size: cover;
+		}
+	}
+	.img-fluid {
+		width: 100%;
+	}
+	&-info-container {
+		margin-top: ($grid-gutter-width / 2);
+		background: rgba(#000, 0.7);
+		@include media-breakpoint-up(md) {
+			margin-top: 0;
+			padding-left: $grid-gutter-width;
+			background: none;
+		}
+	}
+	&-form-container {
+		background-color: $gray-lightest;
+		padding: ($grid-gutter-width / 2);
+		position: relative;
+	}
+	&-sent {
+		display: flex;
+		align-items: center;
+		height: 100%;
+		.alert.alert-success {
+			margin: 0;
+		}
+	}
+	&-contact-card {
+		padding: ($grid-gutter-width / 2) 0 ($grid-gutter-width / 2);
+		color: white;
+		@include media-breakpoint-up(md) {
+			padding: ($grid-gutter-width / 2);
+			background: rgba(#000, 0.7);
+		}
+		> div {
+			height: 20px;
+			margin-bottom: 10px;
+		}
+		[class^="icon-"] {
+			display: inline-block;
+			width: 17px;
+			margin-left: 3px;
+		}
+	}
+	&-skype-container {
+		img {
+			margin: 0 !important;
+			vertical-align: baseline !important;
+			transform: scale(0.9);
+		}
+	}
+	label {
+		margin-bottom: 0;
+	}
+}

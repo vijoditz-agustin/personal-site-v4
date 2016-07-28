@@ -1,0 +1,16 @@
+.theater {
+	background: url('../img/denver.jpg') no-repeat center center;
+	background-size: cover;
+	> .container {
+		height: 300px;
+		@include media-breakpoint-up(md) {
+			height: 450px;
+		}
+		> .row {
+			height: 100%;
+		}
+	}
+	h1 {
+		color: #FFF;
+	}
+}
