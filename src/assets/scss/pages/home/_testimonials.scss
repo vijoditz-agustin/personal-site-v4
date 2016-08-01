@@ -3,11 +3,6 @@
 **********************/
 .testimonials {
 	padding-bottom: 15px;
-	color: white;
-	background: $brand-primary-dark;
-	h2::before {
-		border-color: white;
-	}
 	@include media-breakpoint-up(md) {
 		border-top-width: 20px;
 		padding-bottom: 20px;

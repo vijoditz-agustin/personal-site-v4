@@ -3,7 +3,7 @@ import React from 'react';
 export default class Header extends React.Component {
 	render () {
 		return (
-			<header className="container content-block">
+			<header className="home-inverted-colors container-fluid content-block">
 				<h2 className="text-xs-center">Featured Work</h2>
 				<div className="row">
 					<div className="col-xs-12 col-md-8 col-md-offset-2 text-xs-center">

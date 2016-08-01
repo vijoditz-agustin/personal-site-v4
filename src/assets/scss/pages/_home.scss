@@ -1,5 +1,21 @@
-@import 'home/about-me';
+/**
+ *	Home - Partials
+ */
 @import 'home/hire-me';
 @import 'home/skills';
 @import 'home/testimonials';
 @import 'home/work';
+
+
+/**
+ *	Home - Styles
+ */
+ .home {
+	 &-inverted-colors {
+		color: white;
+		background: $brand-primary-dark;
+		h2::before {
+			border-color: white;
+		}
+	}
+ }

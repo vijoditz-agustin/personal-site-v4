@@ -75,7 +75,7 @@ export default class Testimonials extends React.Component {
 		];
 
 		return (
-			<section id="testimonials" className="testimonials content-block">
+			<section id="testimonials" className="testimonials home-inverted-colors content-block">
 				<h2 className="text-xs-center">Testimonials</h2>
 				<Carousel decorators={decorators} afterSlide={this.afterSlide}>
 					{carouselItems}
