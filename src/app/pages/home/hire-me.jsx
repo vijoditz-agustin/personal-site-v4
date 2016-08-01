@@ -140,6 +140,12 @@ export default class HireMe extends React.Component {
 										<div id="SkypeButton_Call_agustin.vijodiz_1">
 										</div>
 									</div>
+									<div>
+										<span className="icon-linkedin"></span> <a href="https://www.linkedin.com/in/agustinvijoditz" target="_blank">LinkedIn profile</a>
+									</div>
+									<div>
+										<span className="icon-github"></span> <a href="https://github.com/vijoditz-agustin" target="_blank">GitHub profile</a>
+									</div>
 								</div>
 							</div>
 						</div>
