@@ -34,7 +34,7 @@ export default class Home extends React.Component {
 			);
 		} else {
 			return (
-				<div>
+				<div className="home">
 					<Theater />
 					<AboutMe expYears={this.state.expYears} />
 					<Work projects={this.state.data.projects} />
