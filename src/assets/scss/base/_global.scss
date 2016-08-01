@@ -1,3 +1,6 @@
+/**
+ * General elements and bootstrap overrides
+ */
 html,
 body {
 	height: 100%;
@@ -46,6 +49,17 @@ h3 {
 	}
 }
 
+header p {
+	margin-bottom: 0;
+}
+
+.form-control:required {
+	box-shadow: none;
+}
+
+/**
+ * Content Block
+ */
 .content-block {
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -55,15 +69,9 @@ h3 {
 	}
 }
 
-header p {
-	margin-bottom: 0;
-}
-
-.form-control:required {
-	box-shadow: none;
-}
-
-// order classes
+/**
+ * Column Order classes (.col-{breakpoint}-order-##
+ */
 @each $breakpoint in map-keys($grid-breakpoints) {
 	@include media-breakpoint-up($breakpoint) {
 		@for $i from 1 through 10 {
@@ -71,5 +79,3 @@ header p {
 		}
 	}
 }
-
-
