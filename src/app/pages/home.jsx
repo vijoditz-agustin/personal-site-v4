@@ -6,7 +6,7 @@ import {getExpYears} from '../plugins/helper.js';
 import Theater from './home/theater.jsx';
 import Work from './home/work.jsx';
 import Skills from './home/skills.jsx';
-// import Testimonials from './home/testimonials.jsx';
+import Testimonials from './home/testimonials.jsx';
 import AboutMe from './home/about-me.jsx';
 import HireMe from './home/hire-me.jsx';
 
@@ -39,7 +39,7 @@ export default class Home extends React.Component {
 					<AboutMe expYears={this.state.expYears} />
 					<Work projects={this.state.data.projects} />
 					<Skills technologies={this.state.data.technologies} skills={this.state.data.skills} />
-					{/*<Testimonials testimonials={this.state.data.testimonials} />*/}
+					<Testimonials testimonials={this.state.data.testimonials} />
 					<HireMe />
 				</div>
 			);

@@ -12,12 +12,49 @@
 		border-top-width: 20px;
 		padding-bottom: 20px;
 	}
+	.icon-quote {
+		&-open, 
+		&-close {
+			color: #ddd;
+			font-size: 16px;
+		}
+		&-open {
+			margin-right: 5px;
+		}
+		&-close {
+			margin-left: 5px;
+		}
+	}
+	.endorser {
+		color: #ddd;
+		margin-left: 10px;
+	}
+	a:hover, a:focus {
+		color: $brand-primary-light;
+	}
 	/**********************
 		Nuka Carousel
 	**********************/
 	.slider {
 		padding-bottom: 20px;
 		margin-bottom: 20px;
+		&-list {
+			transition: height 0.25s ease;
+		}
+		&-slide > div {
+			max-width: 80%;
+			margin: 0 auto 30px;
+			color: white;
+			@include media-breakpoint-up(md) {
+				max-width: 60%;
+			}
+			@include media-breakpoint-up(lg) {
+				max-width: 760px;
+			}
+			p {
+				margin-bottom: 5px;
+			}
+		}
 	}
 	ul.bullets {
 		position: relative;
@@ -44,24 +81,6 @@
 			opacity: 1;
 			.icon-circle { display: inline-block; }
 			.icon-circle-o { display: none; }
-		}
-	}
-
-	.slider-slide > div {
-		max-width: 80%;
-		margin: 0 auto 30px;
-		color: white;
-		@include media-breakpoint-up(md) {
-			max-width: 60%;
-		}
-		@include media-breakpoint-up(lg) {
-			max-width: 760px;
-		}
-		p {
-			margin-bottom: 5px;
-		}
-		.endorser {
-			color: #ddd;
 		}
 	}
 }

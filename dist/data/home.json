@@ -398,16 +398,20 @@
 	],
 	"testimonials": [
 		{
-			"quote": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo neque ullam ab quos, illum blanditiis id. Qui delectus harum, odio labore iusto unde error nemo molestiae, in atque ad accusamus.",
-			"endorser": "Lorem ipsum. Lalal llaaaqd qwdqdq w" 
+			"quote": "Agustin is a terrific developer. He is detail oriented, produces great results and is supportive, patient and understanding of a client's requirements. He has a very positive attitude and is willing to be available to solve problems. He has great ideas and vision and can add value to a concept.",
+			"endorser": "Rosalind Rock, President of Rock International Inc." 
 		},
 		{
-			"quote": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo neque ullam ab quos, illum blanditiis id. Qui delectus harum, odio labore iusto unde error nemo molestiae, in atque ad accusamus.",
-			"endorser": "Lorem ipsum. Lalal llaaaqd qwdqdq w" 
+			"quote": "Agustin is a hard-worker, who would always meet deadlines as they were given to him.  If I gave him a hard and fast date that something had to be completed, he would have it done. He also did a great job at solving any challenges that came along, balancing working on them on his own, with when it made sense to ask for help.  He always tried to accomplish exactly what was asked of him, to the best of his abilities, understanding that no one person can know everything, and sometimes you need to learn as you go.<br /><br/>Ultimately, Agustin was a key part of our site being developed at a high-standard and delivered on-time. He was a pleasure to work with, always respectful, and with a great sense of humor. He was an asset to our team, and we plan on continuing to work with him for other future projects.",
+			"endorser": "Karen Ford, Lead UX Developer at Enlighten" 
 		},
 		{
-			"quote": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo neque ullam ab quos, illum blanditiis id. Qui delectus harum, odio labore iusto unde error nemo molestiae, in atque ad accusamus.",
-			"endorser": "Lorem ipsum. Lalal llaaaqd qwdqdq w" 
+			"quote": "As a UX and Visual Designer, I tend to invest a lot of time into creating design and interaction specs to make sure final product is closely aligned with the original mock-ups and prototypes. Working with Agustin this was not the case. He was able to translate my comps into beautiful live responsive pages with minimal specs... <a href=\"https://www.linkedin.com/in/agustinvijoditz#recommendations\" target=\"_blank\">read more</a>",
+			"endorser": "Tatyana Kuznetsova, Freelance Lead UX Designer" 
+		},
+		{
+			"quote": "Agustin is an excellent vendor and person. He delivered solutions to the projects I hired him for.  (Original recommendation in Spanish: Agustin es un exelente proveedor y persona. Aporta soluciones a los proyectos en el que lo convocó.)",
+			"endorser": "Natalia Kupervaser" 
 		}
 	]
 }

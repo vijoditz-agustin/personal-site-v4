@@ -9,7 +9,7 @@ class Testimonial extends React.Component {
 	render () {
 		return (
 			<div>
-				<p>"{this.props.quote}"</p>
+				<p><span className="icon-quote-open"></span><span dangerouslySetInnerHTML={{__html: this.props.quote}}></span><span className="icon-quote-close"></span></p>
 				<span className="endorser">- {this.props.endorser}</span>
 			</div>
 		);
@@ -24,6 +24,11 @@ export default class Testimonials extends React.Component {
 		testimonials: []
 	};
 	mixins: [Carousel.ControllerMixin]
+	afterSlide (currentSlide) {
+		const list = window.document.querySelector('.slider-list');
+		const nextSlide = list.childNodes[currentSlide];
+		list.style.height = nextSlide.offsetHeight + 'px';
+	}
 	render () {
 		const carouselItems = this.props.testimonials.map((testimonial, i) => {
 			return (
@@ -70,9 +75,9 @@ export default class Testimonials extends React.Component {
 		];
 
 		return (
-			<section id="testimonials" className="testimonials content-block text-xs-center">
-				<h2>Testimonials</h2>
-				<Carousel decorators={decorators}>
+			<section id="testimonials" className="testimonials content-block">
+				<h2 className="text-xs-center">Testimonials</h2>
+				<Carousel decorators={decorators} afterSlide={this.afterSlide}>
 					{carouselItems}
 				</Carousel>
 			</section>

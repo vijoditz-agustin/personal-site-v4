@@ -87,7 +87,7 @@ export default class Technologies extends React.Component {
 			);
 		});
 		return (
-			<div className="container content-block technologies" id="technologies">
+			<div className="container content-block technologies">
 				<div className="row">
 					{progressColumns}
 				</div>

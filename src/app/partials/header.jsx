@@ -48,11 +48,8 @@ export default class Header extends React.Component {
 										<a className="nav-link" href="#skills" onClick={this.handleClick}>Skills</a>
 									</li>
 									<li className="nav-item">
-										<a className="nav-link" href="#technologies" onClick={this.handleClick}>Technologies</a>
-									</li>
-									{/*<li className="nav-item">
 										<a className="nav-link" href="#testimonials" onClick={this.handleClick}>Testimonials</a>
-									</li>*/}
+									</li>
 									<li className="nav-item">
 										<a className="btn btn-primary-outline" href="#hire-me" onClick={this.handleClick}>Hire me</a>
 									</li>
