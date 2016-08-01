@@ -1,6 +1,7 @@
 {
 	"projects": [
 		{
+			"link": "http://papaginos.com",
 			"size": {
 				"lg": 8,
 				"sm": 12 
@@ -8,9 +9,9 @@
 			"order": {
 				"xs": 1
 			},
-			"title": "PapaGino's",
+			"title": "Papa Gino's",
 			"img": "papaginos.jpg",
-			"text": "",
+			"text": "This 2-part project consisted of creating a brand new, fully responsive website, and a very complex fully-customized online ordering system.",
 			"tags": [
 				{
 					"type": "primary",
@@ -39,6 +40,7 @@
 			]
 		},
 		{
+			"link": "http://davispartnership.com",
 			"size": {
 				"lg": 4,
 				"sm": 6 
@@ -47,9 +49,9 @@
 				"lg": 2,
 				"xs": 5
 			},
-			"title": "Davis Partnership",
+			"title": "Davis",
 			"img": "davis.jpg",
-			"text": "",
+			"text": "Interactive website coded fully in HTML5 leveraging canvas 2D and 3D.",
 			"tags": [
 				{
 					"type": "primary",
@@ -58,6 +60,10 @@
 				{
 					"type": "primary",
 					"label": "Backbone"
+				},
+				{
+					"type": "success",
+					"label": "Sussy"
 				},
 				{
 					"type": "success",
@@ -72,16 +78,13 @@
 					"label": "CSS3 with SASS"
 				},
 				{
-					"type": "success",
-					"label": "Sussy"
-				},
-				{
 					"type": "danger",
 					"label": "Wordpress"
 				}
 			]
 		},
 		{
+			"link": "http://thisismichigan.com",
 			"size": {
 				"lg": 8,
 				"sm": 12 
@@ -90,9 +93,9 @@
 				"lg": 4,
 				"xs": 2
 			},
-			"title": "University of Michigan Athletics",
+			"title": "U. of Michigan Athletics",
 			"img": "uma.jpg",
-			"text": "",
+			"text": "Wordpress based and optimized fully responsive website integrating multiple sliders and isotope.",
 			"tags": [
 				{
 					"type": "primary",
@@ -121,6 +124,7 @@
 			]
 		},
 		{
+			"link": "https://findadoctor.ohiohealth.com/",
 			"size": {
 				"lg": 8,
 				"sm": 6 
@@ -131,7 +135,7 @@
 			},
 			"title": "OhioHealth",
 			"img": "ohiohealth.jpg",
-			"text": "",
+			"text": "AngularJS based search portal with a complex Google Maps integration.",
 			"tags": [
 				{
 					"type": "primary",
@@ -160,6 +164,7 @@
 			]
 		},
 		{
+			"link": "http://udr.com",
 			"size": {
 				"lg": 4,
 				"sm": 6 
@@ -168,9 +173,9 @@
 				"lg": 3,
 				"xs": 4
 			},
-			"title": "UDR Apartments",
+			"title": "UDR",
 			"img": "udr.jpg",
-			"text": "",
+			"text": "Beautiful fully responsive portal to search for UDR Apartments.",
 			"tags": [
 				{
 					"type": "primary",
@@ -199,6 +204,7 @@
 			]
 		},
 		{
+			"link": "http://swingle.com",
 			"size": {
 				"lg": 4,
 				"sm": 6 
@@ -208,7 +214,7 @@
 			},
 			"title": "Swingle",
 			"img": "swingle.jpg",
-			"text": "",
+			"text": "Extensive website architecture and content implementation for Swingle Lawn Care.",
 			"tags": [
 				{
 					"type": "primary",

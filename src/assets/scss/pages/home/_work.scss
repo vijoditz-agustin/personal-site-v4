@@ -49,8 +49,11 @@
 		}
 		&-img-overlay {
 			padding: 20px;
+			&:hover {
+				text-decoration: none;
+			}
 			.mobile &, .tablet & {
-				background: rgba(#0e1832, 0.45);
+				background: rgba(#0e1832, 0.75);
 			}
 			.desktop & {
 				background: transparent;

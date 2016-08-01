@@ -43,7 +43,7 @@ class Card extends React.Component {
 		return (
 			<div className={classNames(...cardClasses)}>
 				<span className="card-img" style={{backgroundImage:'url(\'img/work/'+this.props.data.img+'\')'}}></span>
-				<div className="card-img-overlay">
+				<a className="card-img-overlay" href={this.props.data.link} target="_blank">
 					<div className="card-img-overlay-content">
 						<div className="card-title">{this.props.data.title}</div>
 						<p className="card-text">{this.props.data.text}</p>
@@ -51,7 +51,7 @@ class Card extends React.Component {
 							{tags}
 						</ul>
 					</div>
-				</div>
+				</a>
 			</div>
 		);
 	}
